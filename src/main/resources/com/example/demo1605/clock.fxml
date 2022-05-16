@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1605.controller.HelloController">
+   <center>
+       <Pane fx:id="pane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" focusTraversable="true" onKeyPressed="#processKey">
+           <Canvas fx:id="canvas" height="200.0" width="200.0"/>
+       </Pane>
+   </center>
+</BorderPane>
